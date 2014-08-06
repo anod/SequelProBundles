@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Alex Gavrishev</string>
+	<key>category</key>
+	<string>Query Editor</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+if [ -n "$SP_SELECTED_TABLES" ]; then
+    echo -n "\`$SP_SELECTED_TABLES\`"
+fi</string>
+	<key>contact</key>
+	<string>nyrk.tnievfuri@tznvy.pbz</string>
+	<key>description</key>
+	<string>Insert current select table name into query editor</string>
+	<key>internalKeyEquivalent</key>
+	<dict>
+		<key>characters</key>
+		<string>N</string>
+		<key>keyCode</key>
+		<integer>45</integer>
+		<key>modifierFlags</key>
+		<integer>1179648</integer>
+	</dict>
+	<key>keyEquivalent</key>
+	<string>$@N</string>
+	<key>name</key>
+	<string>InsertTableName</string>
+	<key>output</key>
+	<string>insertastext</string>
+	<key>scope</key>
+	<string>inputfield</string>
+	<key>tooltip</key>
+	<string>Insert selected table name into query editor</string>
+	<key>uuid</key>
+	<string>5E9B2807-8812-441A-8F59-B2E9E8CE805F</string>
+</dict>
+</plist>
