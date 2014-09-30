@@ -19,16 +19,16 @@ fi</string>
 	<key>internalKeyEquivalent</key>
 	<dict>
 		<key>characters</key>
-		<string>S</string>
+		<string>M</string>
 		<key>keyCode</key>
 		<integer>1</integer>
 		<key>modifierFlags</key>
 		<integer>1179648</integer>
 	</dict>
 	<key>keyEquivalent</key>
-	<string>$@S</string>
+	<string>$@M</string>
 	<key>name</key>
-	<string>InsertSelect</string>
+	<string>InsertTableSelect</string>
 	<key>output</key>
 	<string>insertastext</string>
 	<key>scope</key>
